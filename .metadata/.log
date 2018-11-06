@@ -1127,3 +1127,200 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
 	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-10-30 20:15:12.467 -----------------------------------------------
+eclipse.buildId=3.0.0.
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product com.somniumtech.branding.kds.ide -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.somniumtech.branding.kds.ide -showlocation
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-30 20:15:45.618
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aluno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.processorexpert.core.ide.wizard.ui 2 0 2018-10-30 20:15:47.280
+!MESSAGE External elements location C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\BoardConfigurations/wizard_data does not exist
+!SESSION 2018-11-05 17:53:14.740 -----------------------------------------------
+eclipse.buildId=3.0.0.
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product com.somniumtech.branding.kds.ide -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.somniumtech.branding.kds.ide -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-05 17:53:46.990
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.processorexpert.core.ide.wizard.ui 2 0 2018-11-05 17:54:00.768
+!MESSAGE External elements location C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\BoardConfigurations/wizard_data does not exist
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-05 17:58:43.116
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aluno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-11-06 20:48:17.625 -----------------------------------------------
+eclipse.buildId=3.0.0.
+java.version=1.7.0_76
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product com.somniumtech.branding.kds.ide -product com.somniumtech.branding.kds.ide -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.somniumtech.branding.kds.ide -data C:\Users\aluno\Desktop\ES770-155298-156158 -product com.somniumtech.branding.kds.ide -showlocation
+
+!ENTRY com.processorexpert.core.ide.wizard.ui 2 0 2018-11-06 20:48:23.365
+!MESSAGE External elements location C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\BoardConfigurations/wizard_data does not exist
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-06 20:48:23.584
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aluno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2018-11-06 20:48:26.026
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:379)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.resourceChanged(SystemTempFileListener.java:218)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-11-06 20:53:23.995
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:379)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.resourceChanged(SystemTempFileListener.java:218)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-11-06 20:54:06.776
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:379)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.checkLocalChanges(SystemTempFileListener.java:386)
+	at org.eclipse.rse.files.ui.resources.SystemTempFileListener.resourceChanged(SystemTempFileListener.java:218)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 2 2018-11-06 21:00:00.468
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:361)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:201)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:211)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.readMemory(GDBEventListener.java:56)
+	at org.eclipse.cdt.embsysregview.views.TreeRegister.readValue(TreeRegister.java:154)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:867)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.gdbSuspendListener(EmbSysRegView.java:903)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.handleDebugEvents(GDBEventListener.java:108)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2018-11-06 21:00:00.484
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:361)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:201)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:211)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.readMemory(GDBEventListener.java:56)
+	at org.eclipse.cdt.embsysregview.views.TreeRegister.readValue(TreeRegister.java:154)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:867)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.gdbSuspendListener(EmbSysRegView.java:903)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.handleDebugEvents(GDBEventListener.java:108)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 2 2018-11-06 21:01:41.692
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:361)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:201)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:211)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.readMemory(GDBEventListener.java:56)
+	at org.eclipse.cdt.embsysregview.views.TreeRegister.readValue(TreeRegister.java:154)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:867)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.gdbSuspendListener(EmbSysRegView.java:903)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.handleDebugEvents(GDBEventListener.java:108)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2018-11-06 21:01:41.701
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:361)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:201)
+	at org.eclipse.cdt.embsysregview.views.GDBSessionTranslator.readMemory(GDBSessionTranslator.java:211)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.readMemory(GDBEventListener.java:56)
+	at org.eclipse.cdt.embsysregview.views.TreeRegister.readValue(TreeRegister.java:154)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:867)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.updateTreeFields(EmbSysRegView.java:872)
+	at org.eclipse.cdt.embsysregview.views.EmbSysRegView.gdbSuspendListener(EmbSysRegView.java:903)
+	at org.eclipse.cdt.embsysregview.views.GDBEventListener.handleDebugEvents(GDBEventListener.java:108)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

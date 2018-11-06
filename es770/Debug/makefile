@@ -12,7 +12,7 @@ RM := rm -rf
 -include Sources/Tacometer/subdir.mk
 -include Sources/Serial/subdir.mk
 -include Sources/LedSwi/subdir.mk
--include Sources/Fan/subdir.mk
+-include Sources/Encoder/subdir.mk
 -include Sources/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
 -include subdir.mk

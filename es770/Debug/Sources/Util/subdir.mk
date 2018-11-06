@@ -6,6 +6,7 @@
 C_SRCS += \
 ../Sources/Util/adc.c \
 ../Sources/Util/debugUart.c \
+../Sources/Util/motores.c \
 ../Sources/Util/pid.c \
 ../Sources/Util/tc_hal.c \
 ../Sources/Util/timer_counter.c \
@@ -14,6 +15,7 @@ C_SRCS += \
 OBJS += \
 ./Sources/Util/adc.o \
 ./Sources/Util/debugUart.o \
+./Sources/Util/motores.o \
 ./Sources/Util/pid.o \
 ./Sources/Util/tc_hal.o \
 ./Sources/Util/timer_counter.o \
@@ -22,6 +24,7 @@ OBJS += \
 C_DEPS += \
 ./Sources/Util/adc.d \
 ./Sources/Util/debugUart.d \
+./Sources/Util/motores.d \
 ./Sources/Util/pid.d \
 ./Sources/Util/tc_hal.d \
 ./Sources/Util/timer_counter.d \
